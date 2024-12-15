@@ -14,6 +14,7 @@ language = "nodejs"
 [deployment]
 run = ["npm", "run", "start"]
 deploymentTarget = "cloudrun"
+buildCommand = "npm run build"
 ignorePorts = false
 
 [[ports]]
